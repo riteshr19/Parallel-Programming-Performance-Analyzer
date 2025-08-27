@@ -1,0 +1,43 @@
+# Build directories
+build/
+debug/
+release/
+
+# Compiled binaries
+*.o
+*.obj
+*.exe
+parallel_analyzer
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+/tmp/
+
+# Reports and output files
+*.txt
+*.csv
+*.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Example binaries
+examples/*.exe
+examples/cpu_bound_example
+examples/memory_bound_example
+examples/load_imbalance_example
