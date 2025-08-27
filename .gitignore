@@ -13,7 +13,7 @@ parallel_analyzer
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
+build/Makefile
 
 # IDE files
 .vscode/
